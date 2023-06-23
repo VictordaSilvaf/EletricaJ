@@ -1,4 +1,3 @@
-import React from "react";
 import ProductItem from "./ProductItem";
 import Product1 from "./../assets/products/product1.png";
 import Product2 from "./../assets/products/product2.png";
