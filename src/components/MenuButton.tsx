@@ -7,7 +7,7 @@ interface MenuButtonProps {
 
 const MenuButton: React.FC<MenuButtonProps> = ({ onButtonClick }) => {
   return (
-    <button className="lg:hidden text-azul_escuro p-3" onClick={onButtonClick }>
+    <button className="lg:hidden text-azul_escuro p-3" onClick={onButtonClick}>
       <img src={Bars} alt="menu button" className="h-5" />
     </button>
   );

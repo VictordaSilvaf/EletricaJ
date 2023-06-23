@@ -113,7 +113,7 @@ const Navbar = () => {
       </div>
       <div
         className={`bg-white shadow-lg h-auto py-8 top-16 right-0 z-50 absolute w-1/2 duration-200 ease-in-out ${
-          isSelected ? "hidden" : ""
+          isSelected ? "" : "hidden"
         }`}
       >
         <ul className="flex flex-col justify-center items-center gap-6 text-sm ">
